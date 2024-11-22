@@ -145,3 +145,29 @@ button:hover {
         border-color: #3d3d3d;
     }
 }
+@media only screen and (max-height: 500px) and (orientation: landscape) {
+    body {
+        padding: 10px;
+    }
+    
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+        padding: 10px;
+    }
+    
+    .info-container {
+        margin-bottom: 10px;
+        padding: 8px;
+    }
+    
+    .counter, .timer {
+        font-size: 0.8rem;
+        padding: 4px 8px;
+    }
+    
+    button {
+        padding: 5px 10px;
+        font-size: 0.9rem;
+    }
+}
